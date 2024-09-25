@@ -54,3 +54,63 @@ body {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  min-height: 256px;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.login-form input:hover,
+.login-form input:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+.login-form input:active {
+  border: 1px solid #808080;
+}
+
+.login-form button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background: #6c8cff;
+}
