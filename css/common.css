@@ -13,6 +13,62 @@ body {
   line-height: 1.5;
 }
 
+/* Task 1 */
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  list-style-type: none;
+}
+
+.item {
+  background: #f6f6fe;
+
+  border-radius: 8px;
+
+  width: 392px;
+  min-height: 264px;
+}
+.item h2 {
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 16px;
+  list-style-type: none;
+}
+
+.item ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* Task 2 */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +84,7 @@ body {
   height: 300px;
 }
 
+/* Task 3 */
 .int-Name {
   padding-left: 16px;
   border: 1px solid #808080;
@@ -55,6 +112,7 @@ body {
   color: #2e2f42;
 }
 
+/* Task 4 */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -115,6 +173,7 @@ body {
   background: #6c8cff;
 }
 
+/* Task 5 */
 .widget {
   display: flex;
   flex-direction: column;
