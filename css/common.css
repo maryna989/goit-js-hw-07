@@ -214,3 +214,86 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+/* Task 6 */
+
+#controls {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  background: #f6f6fe;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+}
+
+#controls input {
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 8px;
+
+  width: 150px;
+  height: 40px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+#controls [data-create] {
+  background: #4e75ff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls [data-create]:hover {
+  background: #6c8cff;
+}
+
+#controls [data-destroy] {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls [data-destroy]:hover {
+  background: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  background: #f6f6fe;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 134px;
+  gap: 10px;
+}
